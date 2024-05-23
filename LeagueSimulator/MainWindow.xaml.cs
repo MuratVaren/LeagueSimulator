@@ -321,6 +321,8 @@ namespace LeagueSimulator
             TextBlockClass.Text = "";
             TextBlockCost.Text = "";
             ListBoxChampionAbilities.Items.Clear();
+            ImageBanner.Source = null;
+            PasswordBoxMatchCode.Clear();
             foreach(Image champIcon in GridTeam1.Children)
             {
                 champIcon.Source = new BitmapImage(new Uri("images/icons/empty_icon.png", UriKind.RelativeOrAbsolute));
